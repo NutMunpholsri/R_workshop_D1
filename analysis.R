@@ -3,4 +3,5 @@ y <- 40 * 2 + rnorm(10, 0, 5)
 plot(x, y)
 library(lintr)
 
-meadian(x)
+median(x)
+mean(x) #add mean, deposit to GitHub
